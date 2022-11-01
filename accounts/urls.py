@@ -12,7 +12,7 @@ urlpatterns = [
 	path('logout/', views.logoutUser, name="logout"),
 
     path('home', views.home, name="home"),
-    path('/', views.clockin_clockout, name="attendance"),
+    path('', views.clockin_clockout, name="attendance"),
 
     path('leave/', views.leave_application, name="leave_application"),
     # path('leave_app', views.contact, name="send_mail"),
